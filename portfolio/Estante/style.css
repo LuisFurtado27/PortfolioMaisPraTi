@@ -1,0 +1,139 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    /* background */
+    background-color: #F2E7DC;  
+    
+    /* Texto */
+    color:#0d0d0d;
+    text-align:justify;
+
+    /* Alinhamento e Tamanho */
+    width: 100%;
+    margin: auto;
+}
+
+section{
+
+    /* padding no formato shorthand*/
+    padding: 64px 256px 64px 256px;
+}
+
+table {
+    width: 100%;
+}
+
+td{
+    background-color: #A9D9D0;
+    text-align: center;
+}
+
+td, 
+th {
+    /* borda no formato shorthand*/
+    border: #0d0d0d solid 1px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+tr{
+   background-color: #038C7F;        
+}
+
+
+
+/*Titulo texto e paragrafo*/
+
+a:link {
+    color:#F2e7dc;    
+}
+
+a:visited{
+    color: #95bfb8;
+}
+
+a:hover{
+    color:#025454
+}
+
+a:active{
+    color:#0d0d0d
+}
+
+
+p {  
+    text-align: justify;
+    text-indent: 50px;
+}
+
+h1,
+h2, 
+h3 {
+    text-align: center;
+}
+
+h3 {    
+    color: #0d0d0d;
+}
+
+img {
+    width: 300px;
+    display: block;
+    margin: auto;
+    border-radius: 50px;
+}
+
+
+/*Classe e Id*/
+.bookTitle {
+    background-color: #A9D9D0;
+    color: #027373;
+    text-align: center;            
+}
+
+#sectionHP, 
+#sectionPP,
+#sectionPR {
+    background-color: #027373;
+}
+
+#header{
+    background-color: #038c7F;
+    color: #F2E7DC;
+    padding: 20px;
+    margin-bottom: 0px;
+ }
+
+#sumary{
+    background-color: #038C7F;
+    color: #F2e7dc;
+    padding: 20px;
+    margin-bottom: 50px;
+    border-radius: 0 0 50px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+#yourLibrary{
+    text-indent: 0px;
+    text-align: center;
+}
+
+
+/*Roda pé*/
+
+footer{
+    background-color: #038C7F;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+button{
+
+    border-radius: 30px;
+    background-color:red;
+}
